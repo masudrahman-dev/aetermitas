@@ -7,6 +7,7 @@ const Discount = () => {
       <div>
         <DiscountLeft />
       </div>
+     
       <div>
         <DiscountRight />
       </div>

@@ -1,5 +1,5 @@
 import Button from "../ui/Button";
-import "./Discount.css";
+import "./DiscountRight.css";
 const DiscountRight = () => {
   return (
     <div className=" discount_right  h-[564.75px] grid grid-cols-2  items-center pl-[100px]">

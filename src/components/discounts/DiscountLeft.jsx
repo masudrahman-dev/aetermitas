@@ -1,10 +1,10 @@
 import Button from "../ui/Button";
 
-import "./Discount.css";
+import './DiscountLeft.css'
 const DiscountLeft = () => {
   return (
-    <div className=" discount_left  h-[564.75px] grid grid-cols-2  items-center">
-      <div className=" text-white ">
+    <div className=" discount_left w-[946px]  h-[564.75px] grid grid-cols-2  items-center pl-[100px]">
+      <div className=" text-white  ">
         <h1 className="text-[53px] font-bold">10% Discount</h1>
         <p className=" text-[13px] leading-[19px] my-[21px]">
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -15,7 +15,7 @@ const DiscountLeft = () => {
         <Button className={"bg-white text-black"}>BUY NOW</Button>
       </div>
 
-      <div></div>
+      <div>g</div>
     </div>
   );
 };
