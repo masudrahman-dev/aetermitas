@@ -14,11 +14,14 @@ const Newsletter = () => {
         <div>
           <div className="  relative bg-white rounded-[3px] text-[11px] w-[240.5px] my-[35px] flex  justify-between">
             <input
-              className=" w-full pl-[5px]  py-[9.5px]"
+              className=" w-full pl-[5px]  py-[9.5px] overflow-hidden  rounded-[3px]"
               type="email"
               placeholder="Your email address "
             />
-            <button type="submit" className="bg-[#0E0E0E] text-white  px-[9.5px] rounded-[3px]">
+            <button
+              type="submit"
+              className="bg-[#0E0E0E] text-white  px-[9.5px] rounded-[3px]"
+            >
               Subscribe
             </button>
           </div>
